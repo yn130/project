@@ -1,0 +1,88 @@
+.accordion-button {
+    background-color: #6c757d; 
+    color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #343a40;
+    color: #ffffff;
+    border-color: #343a40;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+/* ------------------------------------------------------------------------ */
+
+/* .card {
+    height: 25em;
+    width: 18rem;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 17em;
+}
+
+
+.carousel-inner {
+    display : inline-block;
+}
+
+.carousel-item {
+    width: 33%;
+    display: flex;
+
+} */
+
+.story-list > li{
+    display : inline-block;
+    
+}
+.story-card-image {
+    height: 20em;
+    width: 18rem;
+}
+
+.story-list {
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0;
+    scroll-behavior: smooth; 
+    width: calc(100% - 5em); 
+    margin: 0 auto;
+}
+
+/* .story-list {
+    white-space: nowrap;
+    overflow: hidden;
+    scroll-behavior: smooth; Smooth scrolling for better UX
+    width: calc(100% - 4em); Adjust width considering button sizes
+    margin: 0 auto; Center the list
+} */
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.1);
+    color:#343a40;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#carousel-prev {
+    left: 0;
+}
+
+#carousel-next {
+    right: 0;
+}
