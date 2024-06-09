@@ -14,7 +14,7 @@
 .container-banner-picture {
     width: 50%;
     overflow: hidden;
-    background-image: url('./image/getImage.jpeg'); 
+    background-image: url('./image/getImage.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;

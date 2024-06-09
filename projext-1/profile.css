@@ -1,3 +1,8 @@
+h1 {
+    font-weight: bolder;
+    color:rgb(0, 162, 255)
+}
+
 .accordion-button {
     background-color: #6c757d; 
     color: #ffffff;
@@ -14,53 +19,69 @@
 }
 /* ------------------------------------------------------------------------ */
 
-/* .card {
-    height: 25em;
-    width: 18rem;
-
-}
-
-.card-img-top {
-    width: 100%;
-    height: 17em;
-}
-
-
-.carousel-inner {
-    display : inline-block;
-}
-
-.carousel-item {
-    width: 33%;
-    display: flex;
-
-} */
-
 .story-list > li{
     display : inline-block;
-    
+    padding-right: 1.5em;
 }
-.story-card-image {
-    height: 20em;
-    width: 18rem;
-}
-
 .story-list {
     white-space: nowrap;
     overflow: hidden;
-    padding: 0;
     scroll-behavior: smooth; 
     width: calc(100% - 5em); 
     margin: 0 auto;
+    padding: 0;
 }
 
-/* .story-list {
-    white-space: nowrap;
+.area_card {
+    height: 350px;
+    width: 290px;
+}
+
+.story-card-image {
+    object-fit :cover;
+    height: 220px;
+    width: 288px;
+    border-radius: 4%;
+}
+
+
+/* ---- */
+
+.title_box {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
     overflow: hidden;
-    scroll-behavior: smooth; Smooth scrolling for better UX
-    width: calc(100% - 4em); Adjust width considering button sizes
-    margin: 0 auto; Center the list
-} */
+
+}
+
+.atag_text {
+    text-decoration: none;
+
+}
+
+.titleBox-content { 
+    width: 290px;
+    font-size: 20px;
+    font-weight: bolder;
+    word-wrap: break-all; 
+    white-space: normal; 
+}
+.titleBox-content-sub-text {
+
+    color: grey;
+    font-size: 15px;
+    font-weight: normal;
+    width: 100%; 
+    word-wrap: break-all; 
+    overflow: hidden; 
+    white-space: normal; 
+}
+
+
+/* ---- */
 
 .carousel-container {
     position: relative;
@@ -86,3 +107,37 @@
 #carousel-next {
     right: 0;
 }
+
+/* ------------------------------------------------------------------------ */
+.shadow-sm {
+    display: flex;
+}
+
+.article-img {
+    width : 100%;
+    height: 300px;
+    background-color: #343a40;
+    position: relative;
+    padding: auto;
+    color: inherit;
+    text-decoration: none;
+}
+
+.card-body {
+    height: 100%;
+    word-wrap: break-all; 
+    overflow: hidden; 
+    white-space: normal; 
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    height: 1em;
+}
+
+.article-img:hover {
+    color: #ffffff;
+}
+

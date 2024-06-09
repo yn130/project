@@ -17,15 +17,3 @@ function adjustHeadingSize() {
     figcaption.prepend(aTag);
 });
 
-
-// document.querySelectorAll('.card-figcaption').forEach(figcaption => {
-//     const aTag = document.createElement('a');
-//     aTag.setAttribute('href', '#');
-//     aTag.setAttribute('target', '_blank');
-//     aTag.classList.add('image-figcaption-atag');
-//     aTag.textContent = 'Appreciate this artwork';
-    
-//     figcaption.innerHTML = ''; 
-//     figcaption.appendChild(aTag);
-// });
-
